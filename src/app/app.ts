@@ -8,5 +8,11 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.css'
 })
 export class App {
-  protected title = 'firstweb';
+  protected title = 'POPO';
+  me = {
+      name: 'POPO',
+      description: 'A simple web app to demonstrate Angular capabilities.',
+      Image: 'https://angular.io/assets/images/logos/angular/angular.png',
+      
+}
 }

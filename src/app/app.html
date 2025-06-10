@@ -226,6 +226,9 @@
         </defs>
       </svg>
       <h1>Hello, {{ title }}</h1>
+      <h2>{{me.name}}</h2>
+      <span>{{me.description}}</span>
+      <img [src]="me.avatar">
       <p>Congratulations! Your app is running. 🎉</p>
     </div>
     <div class="divider" role="separator" aria-label="Divider"></div>
@@ -332,5 +335,5 @@
 <!-- * * * * * * * * * * End of Placeholder  * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
-
+<div>pond</div>
 <router-outlet />
